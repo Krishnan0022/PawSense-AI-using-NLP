@@ -3,7 +3,6 @@
 
 PawSenseAI is an NLP-driven conversational system designed to assist pet owners and cattle farmers with health, nutrition, and general care queries. The system combines semantic search with transformer-based response generation to provide context-aware answers through a Streamlit web interface.
 
-
 ## 📌 Overview
 
 PawSenseAI integrates:
@@ -32,7 +31,7 @@ The application supports two service modes:
 
 This pipeline enables context-aware responses instead of purely generic answers.
 
-##Process Flow of Sementic Search
+## Process Flow of Sementic Search
 <img width="2000" height="815" alt="image" src="https://github.com/user-attachments/assets/913a4632-6417-45f1-96cb-80f35ef630f2" />
 
 
@@ -105,7 +104,9 @@ FLAN-T5 was:
 - Session memory tracking
 - Real-time database integration
 
----
+<img width="1092" height="546" alt="image" src="https://github.com/user-attachments/assets/b55fdf98-f815-4f7f-9c81-43fe332c8a59" />
+<img width="535" height="1156" alt="image" src="https://github.com/user-attachments/assets/8401555e-c5ec-4ed8-af1e-90ff85d88bf5" />
+<img width="940" height="474" alt="image" src="https://github.com/user-attachments/assets/f87f2d8c-8134-4784-a6d6-0739a3579e9e" />
 
 ## 🖥️ Installation & Setup
 
@@ -130,6 +131,9 @@ pip install -r requirements.txt
 - Create a Firebase project
 
 - Create your Db of pets anc cattle care data instances as shown below
+<img width="1480" height="851" alt="image" src="https://github.com/user-attachments/assets/6e53d47c-0d5b-475d-9a34-a5481b0004a8" />
+<img width="1479" height="961" alt="image" src="https://github.com/user-attachments/assets/670f6cd7-a201-4826-8316-c39db2f28fbc" />
+
 
 - Download service account credentials
 
@@ -145,21 +149,21 @@ streamlit run app.py
 🔮 Future Improvements
 Multilingual support
 
--Enhanced personalization
+- Enhanced personalization
 
--Improved contextual memory across sessions
+- Improved contextual memory across sessions
 
--Expanded dataset coverage
+- Expanded dataset coverage
 
--Better noise handling for speech input
+- Better noise handling for speech input
 
 👩‍💻 Contributors
 
--Krishnan V
+- Krishnan V
 
--Rufina M
+- Rufina M
 
--Mahalakshmi Balan
+- Mahalakshmi Balan
 
 Guide: Prof. Biji C.L
 
