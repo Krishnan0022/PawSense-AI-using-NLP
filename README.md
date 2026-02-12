@@ -32,6 +32,9 @@ The application supports two service modes:
 
 This pipeline enables context-aware responses instead of purely generic answers.
 
+##Process Flow of Sementic Search
+<img width="2000" height="815" alt="image" src="https://github.com/user-attachments/assets/913a4632-6417-45f1-96cb-80f35ef630f2" />
+
 
 ## 🛠️ Tech Stack
 
@@ -53,6 +56,8 @@ This pipeline enables context-aware responses instead of purely generic answers.
 - Google Speech-to-Text API
 - gTTS (Google Text-to-Speech)
 
+## FLAN T5 Architecture
+<img width="940" height="716" alt="image" src="https://github.com/user-attachments/assets/bea6d1e8-f781-4d43-8bae-c125462bc3d0" />
 
 ## 📂 Dataset Preparation
 
