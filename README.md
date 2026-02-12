@@ -113,7 +113,7 @@ FLAN-T5 was:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/PawSenseAI.git
+git clone https://github.com/Krishnan0022/PawSense-AI-using-NLP.git
 cd PawSenseAI
 ```
 2️⃣ Create Virtual Environment (Recommended)
