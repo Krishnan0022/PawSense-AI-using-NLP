@@ -3,7 +3,6 @@
 
 PawSenseAI is an NLP-driven conversational system designed to assist pet owners and cattle farmers with health, nutrition, and general care queries. The system combines semantic search with transformer-based response generation to provide context-aware answers through a Streamlit web interface.
 
----
 
 ## 📌 Overview
 
@@ -19,7 +18,6 @@ The application supports two service modes:
 - 🐶 Pet Care Chatbot
 - 🐄 Cattle Care Chatbot
 
----
 
 ## 🧠 System Workflow
 
@@ -34,7 +32,6 @@ The application supports two service modes:
 
 This pipeline enables context-aware responses instead of purely generic answers.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -56,7 +53,6 @@ This pipeline enables context-aware responses instead of purely generic answers.
 - Google Speech-to-Text API
 - gTTS (Google Text-to-Speech)
 
----
 
 ## 📂 Dataset Preparation
 
@@ -74,8 +70,6 @@ Preprocessing steps:
 
 Embeddings were generated using MiniLM and stored for semantic retrieval.
 
----
-
 ## 🔍 Model Training
 
 FLAN-T5 was:
@@ -87,8 +81,6 @@ FLAN-T5 was:
 - ROUGE Score
 - BLEU Score
 - F1 Score (for classification tasks)
-
----
 
 ## 📊 Preliminary Results
 
@@ -117,3 +109,54 @@ FLAN-T5 was:
 ```bash
 git clone https://github.com/your-username/PawSenseAI.git
 cd PawSenseAI
+```
+2️⃣ Create Virtual Environment (Recommended)
+```bash
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+```
+3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+4️⃣ Configure Firebase
+
+- Create a Firebase project
+
+- Create your Db of pets anc cattle care data instances as shown below
+
+- Download service account credentials
+
+- Add credentials file to project directory
+
+- Update Firebase configuration in the code
+
+5️⃣ Run the Application
+```bash
+streamlit run app.py
+```
+
+🔮 Future Improvements
+Multilingual support
+
+-Enhanced personalization
+
+-Improved contextual memory across sessions
+
+-Expanded dataset coverage
+
+-Better noise handling for speech input
+
+👩‍💻 Contributors
+
+-Krishnan V
+
+-Rufina M
+
+-Mahalakshmi Balan
+
+Guide: Prof. Biji C.L
+
+📜 License
+This project is developed for academic purposes.
